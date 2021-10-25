@@ -1,6 +1,6 @@
 ---
-title: Blog
-description: The list of blog posts for the site
+title: All posts
+description: The list of all posts for the site
 pagination:
     collection: posts
     perPage: 4
@@ -8,7 +8,7 @@ pagination:
 @extends('_layouts.master')
 
 @section('body')
-    <h1>Blog</h1>
+    <h1>All Posts</h1>
 
     <hr class="border-b my-6">
 
