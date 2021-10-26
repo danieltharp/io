@@ -1,7 +1,7 @@
 <nav class="hidden lg:flex items-center justify-end text-lg">
-    <a title="{{ $page->siteName }} Blog" href="/blog"
-        class="ml-6 text-blue-600 hover:text-blue-800 {{ $page->isActive('/blog') ? 'active text-blue-800' : '' }}">
-        Blog
+    <a title="{{ $page->siteName }} Posts" href="/all"
+        class="ml-6 text-blue-600 hover:text-blue-800 {{ $page->isActive('/') ? 'active text-blue-800' : '' }}">
+        Posts
     </a>
 
     <a title="{{ $page->siteName }} About" href="/about"
