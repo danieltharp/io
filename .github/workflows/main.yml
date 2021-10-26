@@ -32,7 +32,9 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: npm run prod
-        run: npm run prod
+        run: |
+          npm install
+          npm run prod
         
       - name: Push built site to S3
         uses: jakejarvis/s3-sync-action@master
